@@ -37,7 +37,7 @@
         "    }",
         "}"
     ],
-    "bin": "pwsh.exe",
+    // "bin": "pwsh.exe",
     "shortcuts": [
         [
             "pwshalt.exe",
