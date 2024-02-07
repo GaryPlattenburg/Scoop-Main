@@ -1,5 +1,5 @@
 {
-    "version": "2022.1-2305383",
+    "version": "2023.2-2535420",
     "description": "Provides access to versioned files in Helix Core through a command-line interface.",
     "homepage": "https://www.perforce.com/products/helix-core-apps/command-line-client",
     "license": {
@@ -7,13 +7,9 @@
         "url": "https://www.perforce.com/sites/default/files/pdfs/Helix_Core%20On%20Prem%20Software%20License%20Agmt%20ClickThru_FINAL%2006.28.2021.pdf"
     },
     "architecture": {
-        "32bit": {
-            "url": "https://cdist2.perforce.com/perforce/r22.1/bin.ntx86/p4.exe",
-            "hash": "0b6bc863d4b316f1d44c288547938a9821d6312fd31d488ed5f29612bb07b1bc"
-        },
         "64bit": {
-            "url": "https://cdist2.perforce.com/perforce/r22.1/bin.ntx64/p4.exe",
-            "hash": "e6dc77616f7eb7d93e5f1d9a7cca980c901c02bb79a728b76156803bc191ec97"
+            "url": "https://cdist2.perforce.com/perforce/r23.2/bin.ntx64/p4.exe",
+            "hash": "a810b65b47c9916f26bc172ae9d6ac26f3d495cb14c4e2e037db48006d20bfad"
         }
     },
     "bin": "p4.exe",
@@ -24,9 +20,6 @@
     },
     "autoupdate": {
         "architecture": {
-            "32bit": {
-                "url": "https://cdist2.perforce.com/perforce/r$matchMajor.$matchMinor/bin.ntx86/p4.exe"
-            },
             "64bit": {
                 "url": "https://cdist2.perforce.com/perforce/r$matchMajor.$matchMinor/bin.ntx64/p4.exe"
             }

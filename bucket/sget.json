@@ -1,12 +1,12 @@
 {
-    "version": "1.10.1",
+    "version": "1.13.2",
     "description": "Safer, automatic verification of signatures and integration.",
     "homepage": "https://github.com/sigstore/cosign#sget",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sigstore/cosign/releases/download/v1.10.1/sget-windows-amd64.exe#/sget.exe",
-            "hash": "a766f48f92ca0ca75dc53f88d68904beadf96fc012276bac9974d0ea1b85b376"
+            "url": "https://github.com/sigstore/cosign/releases/download/v1.13.2/sget-windows-amd64.exe#/sget.exe",
+            "hash": "273531c786928a1d72bd6d55cabe14e06a7785758aeb833ee6e885139f646b77"
         }
     },
     "bin": "sget.exe",

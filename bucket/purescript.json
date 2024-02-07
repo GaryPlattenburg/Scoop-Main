@@ -1,12 +1,12 @@
 {
-    "version": "0.15.4",
+    "version": "0.15.14",
     "description": "A strongly-typed language that compiles to Javascript",
-    "homepage": "http://purescript.org/",
+    "homepage": "https://www.purescript.org/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/purescript/purescript/releases/download/v0.15.4/win64.tar.gz",
-            "hash": "sha1:823f2f72b184256d8fa38395f2085a435e585c0d"
+            "url": "https://github.com/purescript/purescript/releases/download/v0.15.14/win64.tar.gz",
+            "hash": "sha1:f2add5a746e4162ccfbfa6fd15004deafbc1e9ba"
         }
     },
     "extract_dir": "purescript",

@@ -1,17 +1,17 @@
 {
-    "version": "2.1.0",
+    "version": "3.3.3",
     "description": "Command-line task management tool for sequential and parallel execution of long-running tasks.",
     "homepage": "https://github.com/Nukesor/pueue",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/Nukesor/pueue/releases/download/v2.1.0/pueue-windows-x86_64.exe#/pueue.exe",
-                "https://github.com/Nukesor/pueue/releases/download/v2.1.0/pueued-windows-x86_64.exe#/pueued.exe"
+                "https://github.com/Nukesor/pueue/releases/download/v3.3.3/pueue-windows-x86_64.exe#/pueue.exe",
+                "https://github.com/Nukesor/pueue/releases/download/v3.3.3/pueued-windows-x86_64.exe#/pueued.exe"
             ],
             "hash": [
-                "74379c103e8850d19b5ac1397647c078709d722944ec4cb4af9214f0cf0acdea",
-                "1f17dda8cf381a4cade473b23497d44b8462c9060153f4c36465695c356428ac"
+                "d40a380ea098b288dd7e138313381b5ac541b9f337919dd970cd52a3d597af4f",
+                "a3f9155f35e38a90c3753e6b53b18bd836b654e42a2aacb48e75dab2dbc93c9c"
             ]
         }
     },

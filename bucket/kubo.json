@@ -1,31 +1,32 @@
 {
-    "version": "0.14.0",
+    "version": "0.26.0",
     "description": "A peer-to-peer hypermedia protocol to make the web faster, safer, and more open.",
-    "homepage": "https://ipfs.io/",
+    "homepage": "https://ipfs.tech/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://dist.ipfs.io/kubo/v0.14.0/kubo_v0.14.0_windows-amd64.zip",
-            "hash": "sha512:6d2410bb5bd1012835e6bf7f12f079f459944a2de7b43440e066715f8f4cc9a5a9ac5ac89d5cf28209cef6828895397000013c45faadb630e75308e8918ac6bf"
+            "url": "https://dist.ipfs.tech/kubo/v0.26.0/kubo_v0.26.0_windows-amd64.zip",
+            "hash": "sha512:6c65379ce5c47df2243e1928405ab2f8641e62df819b1058aef9ba50dfac2fefa59830e49d10a1a48a03ac0a5c6c9009eee790a74cd4a7a0aa688631320364d2"
         },
         "32bit": {
-            "url": "https://dist.ipfs.io/kubo/v0.14.0/kubo_v0.14.0_windows-386.zip",
-            "hash": "sha512:e882937cf4b491709993b207445758511428eae356fc7b665955a84b8cd4451e06d72ceb15db405ff431cec151d4e284de9d6de549895fdb64274d058db2403a"
+            "url": "https://dist.ipfs.tech/kubo/v0.26.0/kubo_v0.26.0_windows-386.zip",
+            "hash": "sha512:451a18960354f147284703e7d66d505733d66494b9329bfaa1f1b27f0f464bc85ca88d79cd1a85bc145c58493bc153f0b9d36164255a9ba519ab22bd6706b515"
         }
     },
     "extract_dir": "kubo",
     "bin": "ipfs.exe",
     "checkver": {
-        "url": "https://dist.ipfs.io/kubo/versions",
+        "url": "https://dist.ipfs.tech/kubo/versions",
+        "reverse": true,
         "regex": "(?m)^v([\\d.]*)$"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://dist.ipfs.io/kubo/v$version/kubo_v$version_windows-amd64.zip"
+                "url": "https://dist.ipfs.tech/kubo/v$version/kubo_v$version_windows-amd64.zip"
             },
             "32bit": {
-                "url": "https://dist.ipfs.io/kubo/v$version/kubo_v$version_windows-386.zip"
+                "url": "https://dist.ipfs.tech/kubo/v$version/kubo_v$version_windows-386.zip"
             }
         },
         "hash": {

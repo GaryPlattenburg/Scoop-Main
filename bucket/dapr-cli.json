@@ -1,12 +1,12 @@
 {
-    "version": "1.8.1",
+    "version": "1.12.0",
     "description": "Command-line tools for Dapr",
     "homepage": "https://github.com/dapr/cli",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dapr/cli/releases/download/v1.8.1/dapr_windows_amd64.zip",
-            "hash": "1de00aae222adcbeee878b37ed2451de5f6470b4e94fdf04bcbb94a554c17bec"
+            "url": "https://github.com/dapr/cli/releases/download/v1.12.0/dapr_windows_amd64.zip",
+            "hash": "4fc7da58c76151d27f6c711637c5acc57864a27dd5740cf16be0338e64bd0aff"
         }
     },
     "bin": "dapr.exe",

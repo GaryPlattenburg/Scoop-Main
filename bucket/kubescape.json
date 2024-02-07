@@ -1,12 +1,12 @@
 {
-    "version": "2.0.166",
+    "version": "3.0.3",
     "description": "Scans K8s clusters, YAML files, and HELM charts, and detect misconfigurations and software vulnerabilities at early stages of the CI/CD pipeline and provides a risk score instantly and risk trends over time.",
-    "homepage": "https://github.com/armosec/kubescape/",
+    "homepage": "https://github.com/kubescape/kubescape/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/armosec/kubescape/releases/download/v2.0.166/kubescape-windows-latest#/kubescape.exe",
-            "hash": "12f0db7240d299e931771af2ccea42cd7fcfba64bec440c5504871ae3477e243"
+            "url": "https://github.com/kubescape/kubescape/releases/download/v3.0.3/kubescape.exe",
+            "hash": "8bee67f8ac13d638de02de1951fb1a04ef0f49314aaa3863bb62b21879c4a605"
         }
     },
     "bin": "kubescape.exe",
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/armosec/kubescape/releases/download/v$version/kubescape-windows-latest#/kubescape.exe"
+                "url": "https://github.com/kubescape/kubescape/releases/download/v$version/kubescape.exe"
             }
         }
     }

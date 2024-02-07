@@ -1,5 +1,5 @@
 {
-    "version": "21.6.0.0.0",
+    "version": "21.13.0.0.0",
     "description": "Connect to a local or remote Oracle Database for development and production deployment.",
     "homepage": "https://www.oracle.com/database/technologies/instant-client.html",
     "license": {
@@ -8,16 +8,16 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.oracle.com/otn_software/nt/instantclient/216000/instantclient-basic-windows.x64-21.6.0.0.0dbru.zip",
-            "hash": "0a977e76ceed7fae926d0e9f60a02028137265adcdbbb64bddcd2c265b46f6c8",
+            "url": "https://download.oracle.com/otn_software/nt/instantclient/2113000/instantclient-basic-windows.x64-21.13.0.0.0dbru.zip",
+            "hash": "20aa7d60c97335f9f182c7bbdc56738eb246fcb61e1e9dea7991aec553d8c048",
             "env_set": {
                 "OCI_LIB64": "$dir",
                 "TNS_ADMIN": "$dir\\network\\admin"
             }
         },
         "32bit": {
-            "url": "https://download.oracle.com/otn_software/nt/instantclient/216000/instantclient-basic-nt-21.6.0.0.0dbru.zip",
-            "hash": "8eed573cfc49ba57f70ea391c788315179fa394f6fcd6a74ebd991beba487c58",
+            "url": "https://download.oracle.com/otn_software/nt/instantclient/2113000/instantclient-basic-nt-21.13.0.0.0dbru.zip",
+            "hash": "8741e46b1cc934d4d21e9b4a529ff8eb1ba511593343628d4eb6d3be32ae5660",
             "env_set": {
                 "OCI_LIB32": "$dir",
                 "TNS_ADMIN": "$dir\\network\\admin"
@@ -25,13 +25,13 @@
         }
     },
     "suggest": {
-        "Visual C++ Redistributable": "extras/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
-    "extract_dir": "instantclient_21_6",
+    "extract_dir": "instantclient_21_13",
     "env_add_path": ".",
     "persist": "network\\admin",
     "checkver": {
-        "url": "https://www.oracle.com/database/technologies/instant-client/winx64-64-downloads.html",
+        "url": "https://www.oracle.com/database/technologies/instant-client/microsoft-windows-32-downloads.html",
         "regex": "Version ([\\d.]+)",
         "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
     },

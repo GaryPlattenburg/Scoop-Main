@@ -1,13 +1,16 @@
 {
-    "version": "22.05",
+    "version": "23.10",
     "description": "A post-modern modal text editor",
     "homepage": "https://helix-editor.com",
     "license": "MPL-2.0",
+    "suggest": {
+        "vcredist": "extras/vcredist2022"
+    },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/helix-editor/helix/releases/download/22.05/helix-22.05-x86_64-windows.zip",
-            "hash": "36c23bc5ffab85ecaf7c363cdc87b19502e302262729dd11e5dd15e956531497",
-            "extract_dir": "helix-22.05-x86_64-windows"
+            "url": "https://github.com/helix-editor/helix/releases/download/23.10/helix-23.10-x86_64-windows.zip",
+            "hash": "16c5201ff48bbd3ad0bc8fa4d75f2f30307f3e1d002a40bbea0fcfe1f55d0d28",
+            "extract_dir": "helix-23.10-x86_64-windows"
         }
     },
     "bin": [

@@ -1,12 +1,12 @@
 {
-    "version": "0.1.6",
+    "version": "0.1.11",
     "description": "Terminal session recorder (Asciinema format) written in Rust.",
     "homepage": "https://github.com/Watfaq/PowerSession-rs",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Watfaq/PowerSession-rs/releases/download/v0.1.6/PowerSession.exe",
-            "hash": "0f923958c9b83fc998a03e96272af865755472c6e77ce44532e43d1e81a4c6a1"
+            "url": "https://github.com/Watfaq/PowerSession-rs/releases/download/v0.1.11/PowerSession.exe",
+            "hash": "2d3e490f3727f3721ac493b40e2e8aa4e51703c47f5ca116d307979c2683dfee"
         }
     },
     "bin": "PowerSession.exe",

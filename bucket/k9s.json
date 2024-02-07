@@ -1,24 +1,36 @@
 {
-    "version": "0.26.3",
+    "version": "0.31.8",
     "description": "Kubernetes Clusters manager",
     "homepage": "https://github.com/derailed/k9s",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/derailed/k9s/releases/download/v0.26.3/k9s_Windows_x86_64.tar.gz",
-            "hash": "399f2d9f5934b6b4b0a3d192808f88b7c2432162fad2a08ad9ef8c25ef097e94"
+            "url": "https://github.com/derailed/k9s/releases/download/v0.31.8/k9s_Windows_amd64.zip",
+            "hash": "f0111f0efae49db237bc634bcc656845cb16802665bbd5f4d316914571a0e322"
+        },
+        "arm64": {
+            "url": "https://github.com/derailed/k9s/releases/download/v0.31.8/k9s_Windows_arm64.zip",
+            "hash": "0b18d32c7c9edaefc5a19f500ce0c9f0f6adf109352e98c69a3c37b13377e785"
         }
     },
     "bin": "k9s.exe",
+    "env_set": {
+        "K9S_CONFIG_DIR": "$persist_dir/config",
+        "K9S_LOGS_DIR": "$persist_dir/logs"
+    },
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/derailed/k9s/releases/download/v$version/k9s_Windows_x86_64.tar.gz"
+                "url": "https://github.com/derailed/k9s/releases/download/v$version/k9s_Windows_amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/derailed/k9s/releases/download/v$version/k9s_Windows_arm64.zip"
             }
         },
         "hash": {
-            "url": "$baseurl/checksums.txt"
+            "url": "$baseurl/checksums.sha256",
+            "regex": "$sha256  $basename\\n"
         }
     }
 }

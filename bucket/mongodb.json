@@ -1,5 +1,5 @@
 {
-    "version": "6.0.0",
+    "version": "7.2.0",
     "description": "A document database with the scalability and flexibility.",
     "homepage": "https://www.mongodb.org",
     "license": {
@@ -16,13 +16,14 @@
         "\"$dir\\bin\\mongod.exe --config NEW_CONFIG_FILE\""
     ],
     "suggest": {
-        "Visual C/C++ Redistributable": "extras/vcredist2022"
+        "vcredist": "extras/vcredist2022",
+        "MongoDB Shell": "extras/mongosh"
     },
     "architecture": {
         "64bit": {
-            "url": "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-6.0.0-signed.msi",
-            "hash": "0a30a72e5c39cd54250148c39e3912713671cf0e68c77833cd8a980f83b26c09",
-            "extract_dir": "MongoDB\\Server\\6.0"
+            "url": "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-7.2.0-signed.msi",
+            "hash": "783e12dbfb010fde1487fde239cd6f8947c7bf8dfe8cc123099581a29eac70c6",
+            "extract_dir": "MongoDB\\Server\\7.2"
         }
     },
     "pre_install": [

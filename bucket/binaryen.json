@@ -1,15 +1,15 @@
 {
-    "version": "109",
+    "version": "116",
     "description": "Compiler infrastructure and toolchain library for WebAssembly",
     "homepage": "https://github.com/WebAssembly/binaryen",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/WebAssembly/binaryen/releases/download/version_109/binaryen-version_109-x86_64-windows.tar.gz",
-            "hash": "89f99e653ef0b81913f46edc46e624511af073fddea8c6e61e6f354df480f6e4"
+            "url": "https://github.com/WebAssembly/binaryen/releases/download/version_116/binaryen-version_116-x86_64-windows.tar.gz",
+            "hash": "06a18d71ef294150c61737899d9b3290dbc635dba4dc4f80f528e04d4eaef478"
         }
     },
-    "extract_dir": "binaryen-version_109",
+    "extract_dir": "binaryen-version_116",
     "bin": [
         "bin\\wasm2js.exe",
         "bin\\wasm-as.exe",
@@ -20,16 +20,20 @@
         "bin\\wasm-opt.exe",
         "bin\\wasm-reduce.exe",
         "bin\\wasm-shell.exe",
-        "bin\\wasm-split.exe"
+        "bin\\wasm-split.exe",
+        "bin\\wasm-merge.exe"
     ],
     "checkver": {
-        "url": "https://github.com/WebAssembly/binaryen/releases",
-        "regex": "binaryen-version_([\\d.]+)-x86_64-windows\\.tar\\.gz"
+        "github": "https://github.com/WebAssembly/binaryen",
+        "regex": "tag/version_(\\d+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/WebAssembly/binaryen/releases/download/version_$version/binaryen-version_$version-x86_64-windows.tar.gz"
+                "url": "https://github.com/WebAssembly/binaryen/releases/download/version_$version/binaryen-version_$version-x86_64-windows.tar.gz",
+                "hash": {
+                    "url": "$url.sha256"
+                }
             }
         },
         "extract_dir": "binaryen-version_$version"
