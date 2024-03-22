@@ -1,12 +1,12 @@
 {
-    "version": "52.1.9",
+    "version": "52.1.77",
     "description": "The API Traffic Viewer for Kubernetes",
     "homepage": "https://kubeshark.co",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kubeshark/kubeshark/releases/download/v52.1.9/kubeshark.exe",
-            "hash": "db61d40c74e05c16586eabe0e766937c9aa07eb2ceb3a56fd000793f3f8a5276"
+            "url": "https://github.com/kubeshark/kubeshark/releases/download/v52.1.77/kubeshark.exe",
+            "hash": "db3289786a53ba56fe27e131a5de2a1dc72e80057c3e8dec60354b9c1cc7764b"
         }
     },
     "bin": "kubeshark.exe",

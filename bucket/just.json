@@ -1,5 +1,5 @@
 {
-    "version": "1.23.0",
+    "version": "1.25.2",
     "description": "A command runner written in rust",
     "homepage": "https://just.systems",
     "license": "CC0-1.0",
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/casey/just/releases/download/1.23.0/just-1.23.0-x86_64-pc-windows-msvc.zip",
-            "hash": "7fe14ff1a8a87ac76c610ba871ce621897eee2dd783569040194e4ca295538e8"
+            "url": "https://github.com/casey/just/releases/download/1.25.2/just-1.25.2-x86_64-pc-windows-msvc.zip",
+            "hash": "9108b612b674381b6baf667a06b1c8f870b2d6ac4fcb9c4eef53c0866a6ce8f4"
         }
     },
     "bin": "just.exe",

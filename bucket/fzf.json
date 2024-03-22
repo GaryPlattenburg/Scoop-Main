@@ -1,16 +1,16 @@
 {
-    "version": "0.46.1",
+    "version": "0.48.1",
     "description": "A general-purpose command-line fuzzy finder",
     "homepage": "https://github.com/junegunn/fzf",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/junegunn/fzf/releases/download/0.46.1/fzf-0.46.1-windows_amd64.zip",
-            "hash": "5615e671645a59395ab4a637ac3dcddbdc288a47e2a32e51fee01c93efaed2d3"
+            "url": "https://github.com/junegunn/fzf/releases/download/0.48.1/fzf-0.48.1-windows_amd64.zip",
+            "hash": "e8d7c48034517a5dabe4f0d19bc0166bac03323cbd8f4605e859ccf22d232fdb"
         },
         "arm64": {
-            "url": "https://github.com/junegunn/fzf/releases/download/0.46.1/fzf-0.46.1-windows_arm64.zip",
-            "hash": "130cd169f1521e0f462b7cdf5c0595f0d85824f7acaccd224813581939dc4ca6"
+            "url": "https://github.com/junegunn/fzf/releases/download/0.48.1/fzf-0.48.1-windows_arm64.zip",
+            "hash": "3ab1670a3d9d0a53ef8990e994e1ecbd0ab9f3b82a9bb65fe68ab8a9451e7fdb"
         }
     },
     "bin": "fzf.exe",

@@ -1,17 +1,17 @@
 {
-    "version": "1.75.0",
+    "version": "1.77.0",
     "description": "A language empowering everyone to build reliable and efficient software. (GNU toolchain)",
     "homepage": "https://www.rust-lang.org",
     "license": "MIT|Apache-2.0",
     "notes": "Use the rustup package instead for easier management of multiple toolchains, including beta/nightly releases.",
     "architecture": {
         "64bit": {
-            "url": "https://static.rust-lang.org/dist/rust-1.75.0-x86_64-pc-windows-gnu.msi",
-            "hash": "823b22d5012f8394584e84f672a84aa33156e4146dea27134efda2d954e704f1"
+            "url": "https://static.rust-lang.org/dist/rust-1.77.0-x86_64-pc-windows-gnu.msi",
+            "hash": "f6cef206a5bd41dde2757c025a3c4767e7549e573f10827301a0004ec856eaf9"
         },
         "32bit": {
-            "url": "https://static.rust-lang.org/dist/rust-1.75.0-i686-pc-windows-gnu.msi",
-            "hash": "c3287f1dae51e1e966fa62f309509c690be196ff3d22327047fd2ad1b499273b"
+            "url": "https://static.rust-lang.org/dist/rust-1.77.0-i686-pc-windows-gnu.msi",
+            "hash": "eec87f5568fe4b515bd2c6eb0afd7d7b50a84a9433d8e634b327e7b1dc351807"
         }
     },
     "extract_dir": "Rust",

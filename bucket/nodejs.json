@@ -1,23 +1,23 @@
 {
-    "version": "21.6.1",
+    "version": "21.7.1",
     "description": "An asynchronous event driven JavaScript runtime designed to build scalable network applications.",
     "homepage": "https://nodejs.org",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://nodejs.org/dist/v21.6.1/node-v21.6.1-win-x64.7z",
-            "hash": "c09bf7f09eb3aab90b1d1a6daae9f2b99704333fe6bb83a757bd2de8d2f849a1",
-            "extract_dir": "node-v21.6.1-win-x64"
+            "url": "https://nodejs.org/dist/v21.7.1/node-v21.7.1-win-x64.7z",
+            "hash": "7c55e73c25e491a22e302e3919dd58145030a2f14bc6e9b2fed0a45c7dd6f867",
+            "extract_dir": "node-v21.7.1-win-x64"
         },
         "32bit": {
-            "url": "https://nodejs.org/dist/v21.6.1/node-v21.6.1-win-x86.7z",
-            "hash": "8d936365d2473e5f11452d60a61b041ce3a95e93686cef8fb1248516f56407de",
-            "extract_dir": "node-v21.6.1-win-x86"
+            "url": "https://nodejs.org/dist/v21.7.1/node-v21.7.1-win-x86.7z",
+            "hash": "a64136c1aeafb096e8461c304c18eaa910d81f75e1ead5155a5548f4e3733a9b",
+            "extract_dir": "node-v21.7.1-win-x86"
         },
         "arm64": {
-            "url": "https://nodejs.org/dist/v21.6.1/node-v21.6.1-win-arm64.7z",
-            "hash": "b368ed9585ace23d145569ec670fbcbe29d2014c4fa9383705edfba9e12ec432",
-            "extract_dir": "node-v21.6.1-win-arm64"
+            "url": "https://nodejs.org/dist/v21.7.1/node-v21.7.1-win-arm64.7z",
+            "hash": "6ae0f60b24443708b4673b856c66827c2361957c01ee0c9628281486f0191615",
+            "extract_dir": "node-v21.7.1-win-arm64"
         }
     },
     "persist": [

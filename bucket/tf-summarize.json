@@ -1,16 +1,16 @@
 {
-    "version": "0.3.7",
+    "version": "0.3.9",
     "description": "A command-line utility to print the summary of a Terraform plan.",
     "homepage": "https://github.com/dineshba/tf-summarize",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dineshba/tf-summarize/releases/download/v0.3.7/tf-summarize_windows_amd64.zip",
-            "hash": "3a1e0b1227ce391747689218503d7991e72e811ee12eb14815ffc22039cbef09"
+            "url": "https://github.com/dineshba/tf-summarize/releases/download/v0.3.9/tf-summarize_windows_amd64.zip",
+            "hash": "be4b3e8a3921e239b218d753e136535c72201af22c8f0ec522d896c420aa9c3c"
         },
         "arm64": {
-            "url": "https://github.com/dineshba/tf-summarize/releases/download/v0.3.7/tf-summarize_windows_arm64.zip",
-            "hash": "b7cc3573d3764e1454810592539c5fe54f6a29a3db516eb2cdfe9484eb53a38e"
+            "url": "https://github.com/dineshba/tf-summarize/releases/download/v0.3.9/tf-summarize_windows_arm64.zip",
+            "hash": "feaad342ce4a3cb59ff24dd7f108dd96ce2daa1362ea1b5557cd7d5d59d99398"
         }
     },
     "bin": "tf-summarize.exe",
